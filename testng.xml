@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<!--WAY 2 AUTOMATION-->
+<suite name="All Tests">
+    <listeners>
+        <listener class-name="listeners.TestNGListener"/>
+        <listener class-name="listeners.AnnotationTransformer"/>
+    </listeners>
+    <test verbose="2" name="C:\Users\br3nd\IdeaProjects\Selenium\src\test\java">
+        <classes>
+            <class name="pages.Home"/>
+            <class name="pages.Manager_AddCustomer"/>
+            <class name="pages.Manager_OpenAccount"/>
+            <class name="pages.Customer_Dashboard"/>
+            <class name="pages.Customer_Login"/>
+            <class name="pages.Customer_Transactions"/>
+            <class name="pages.Manager_CustomerTable"/>
+            <class name="pages.Manager_Dashboard"/>
+        </classes>
+    </test>
+</suite>
