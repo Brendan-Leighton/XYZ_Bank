@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<!--
+        HOW TO RUN?
+            terminal: mvn clean test -DsuiteXmlFile=testng_smoke.xml
+-->
+
+<!--WAY 2 AUTOMATION-->
+<suite name="Smoke Test">
+    <listeners>
+        <listener class-name="listeners.TestNGListener"/>
+        <listener class-name="listeners.AnnotationTransformer"/>
+    </listeners>
+    <test verbose="2" name="C:\Users\br3nd\IdeaProjects\Selenium\src\test\java">
+        <classes>
+            <!-- Add CLASS and specific METHOD to test -->
+            <class name="pages.Home">
+                <methods>
+                    <include name="test_navbar_HomeButton"/>
+                </methods>
+            </class>
+            </classes>
+    </test>
+</suite>
