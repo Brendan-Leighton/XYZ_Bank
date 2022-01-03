@@ -1,0 +1,259 @@
+<html>
+<head>
+<title>TestNG:  C:\Users\br3nd\IdeaProjects\Selenium\src\test\java</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>C:\Users\br3nd\IdeaProjects\Selenium\src\test\java</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>36/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Dec 30 15:50:48 EST 2021</td>
+</tr>
+<tr><td>Total time:</td><td>55 seconds (55560 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='pages.Customer_Dashboard.testNavigationTransactions()'><b>testNavigationTransactions</b><br>Test class: pages.Customer_Dashboard</td>
+<td></td>
+<td>0</td>
+<td>pages.Customer_Dashboard@4397a639</td></tr>
+<tr>
+<td title='pages.Customer_Transactions.testDatePicker()'><b>testDatePicker</b><br>Test class: pages.Customer_Transactions</td>
+<td></td>
+<td>16</td>
+<td>pages.Customer_Transactions@77114efe</td></tr>
+<tr>
+<td title='pages.Customer_Dashboard.testHomeButton()'><b>testHomeButton</b><br>Test class: pages.Customer_Dashboard</td>
+<td></td>
+<td>0</td>
+<td>pages.Customer_Dashboard@4397a639</td></tr>
+<tr>
+<td title='pages.Customer_Dashboard.testUserGreeting()'><b>testUserGreeting</b><br>Test class: pages.Customer_Dashboard</td>
+<td></td>
+<td>0</td>
+<td>pages.Customer_Dashboard@4397a639</td></tr>
+<tr>
+<td title='pages.Customer_Transactions.testHomeButton()'><b>testHomeButton</b><br>Test class: pages.Customer_Transactions</td>
+<td></td>
+<td>0</td>
+<td>pages.Customer_Transactions@77114efe</td></tr>
+<tr>
+<td title='pages.Customer_Transactions.testResetButton_andCorrectRecentData()'><b>testResetButton_andCorrectRecentData</b><br>Test class: pages.Customer_Transactions</td>
+<td></td>
+<td>3</td>
+<td>pages.Customer_Transactions@77114efe</td></tr>
+<tr>
+<td title='pages.Customer_Transactions.testTableSorting()'><b>testTableSorting</b><br>Test class: pages.Customer_Transactions</td>
+<td></td>
+<td>5</td>
+<td>pages.Customer_Transactions@77114efe</td></tr>
+<tr>
+<td title='pages.Customer_Transactions.testLogoutButton()'><b>testLogoutButton</b><br>Test class: pages.Customer_Transactions</td>
+<td></td>
+<td>0</td>
+<td>pages.Customer_Transactions@77114efe</td></tr>
+<tr>
+<td title='pages.Home.test_mainContent_CustomerLoginButton()'><b>test_mainContent_CustomerLoginButton</b><br>Test class: pages.Home</td>
+<td></td>
+<td>3</td>
+<td>pages.Home@26a262d6</td></tr>
+<tr>
+<td title='pages.Manager_Dashboard.testOpenAccountButton()'><b>testOpenAccountButton</b><br>Test class: pages.Manager_Dashboard</td>
+<td></td>
+<td>0</td>
+<td>pages.Manager_Dashboard@77f68df</td></tr>
+<tr>
+<td title='pages.Manager_CustomerTable.testTableShowsNewAccounts()'><b>testTableShowsNewAccounts</b><br>Test class: pages.Manager_CustomerTable</td>
+<td></td>
+<td>0</td>
+<td>pages.Manager_CustomerTable@79a7bfbc</td></tr>
+<tr>
+<td title='pages.Manager_Dashboard.testHomeButton()'><b>testHomeButton</b><br>Test class: pages.Manager_Dashboard</td>
+<td></td>
+<td>0</td>
+<td>pages.Manager_Dashboard@77f68df</td></tr>
+<tr>
+<td title='pages.Manager_CustomerTable.testNavigationAddCustomer()'><b>testNavigationAddCustomer</b><br>Test class: pages.Manager_CustomerTable</td>
+<td></td>
+<td>0</td>
+<td>pages.Manager_CustomerTable@79a7bfbc</td></tr>
+<tr>
+<td title='pages.Manager_OpenAccount.testNavigationToCustomersTable()'><b>testNavigationToCustomersTable</b><br>Test class: pages.Manager_OpenAccount</td>
+<td></td>
+<td>0</td>
+<td>pages.Manager_OpenAccount@7f572c37</td></tr>
+<tr>
+<td title='pages.Home.test_mainContent_ManagerLoginButton()'><b>test_mainContent_ManagerLoginButton</b><br>Test class: pages.Home</td>
+<td></td>
+<td>2</td>
+<td>pages.Home@26a262d6</td></tr>
+<tr>
+<td title='pages.Customer_Dashboard.test()'><b>test</b><br>Test class: pages.Customer_Dashboard</td>
+<td></td>
+<td>1</td>
+<td>pages.Customer_Dashboard@4397a639</td></tr>
+<tr>
+<td title='pages.Customer_Dashboard.testLogoutButton()'><b>testLogoutButton</b><br>Test class: pages.Customer_Dashboard</td>
+<td></td>
+<td>0</td>
+<td>pages.Customer_Dashboard@4397a639</td></tr>
+<tr>
+<td title='pages.Home.test_navbar_HomeButton()'><b>test_navbar_HomeButton</b><br>Test class: pages.Home</td>
+<td></td>
+<td>0</td>
+<td>pages.Home@26a262d6</td></tr>
+<tr>
+<td title='pages.Manager_OpenAccount.testHomeButton()'><b>testHomeButton</b><br>Test class: pages.Manager_OpenAccount</td>
+<td></td>
+<td>0</td>
+<td>pages.Manager_OpenAccount@7f572c37</td></tr>
+<tr>
+<td title='pages.Manager_CustomerTable.testNavigationOpenAccount()'><b>testNavigationOpenAccount</b><br>Test class: pages.Manager_CustomerTable</td>
+<td></td>
+<td>0</td>
+<td>pages.Manager_CustomerTable@79a7bfbc</td></tr>
+<tr>
+<td title='pages.Manager_Dashboard.testAddCusterButton()'><b>testAddCusterButton</b><br>Test class: pages.Manager_Dashboard</td>
+<td></td>
+<td>0</td>
+<td>pages.Manager_Dashboard@77f68df</td></tr>
+<tr>
+<td title='pages.Manager_AddCustomer.testNavigationToCustomersTable()'><b>testNavigationToCustomersTable</b><br>Test class: pages.Manager_AddCustomer</td>
+<td></td>
+<td>0</td>
+<td>pages.Manager_AddCustomer@7a55f148</td></tr>
+<tr>
+<td title='pages.Customer_Login.testNavigationHome()'><b>testNavigationHome</b><br>Test class: pages.Customer_Login</td>
+<td></td>
+<td>0</td>
+<td>pages.Customer_Login@24841372</td></tr>
+<tr>
+<td title='pages.Manager_CustomerTable.testDeleteCustomer()'><b>testDeleteCustomer</b><br>Test class: pages.Manager_CustomerTable</td>
+<td></td>
+<td>0</td>
+<td>pages.Manager_CustomerTable@79a7bfbc</td></tr>
+<tr>
+<td title='pages.Manager_CustomerTable.testTableSort()'><b>testTableSort</b><br>Test class: pages.Manager_CustomerTable</td>
+<td></td>
+<td>1</td>
+<td>pages.Manager_CustomerTable@79a7bfbc</td></tr>
+<tr>
+<td title='pages.Manager_AddCustomer.testAddCustomerForm()'><b>testAddCustomerForm</b><br>Test class: pages.Manager_AddCustomer</td>
+<td></td>
+<td>3</td>
+<td>pages.Manager_AddCustomer@7a55f148</td></tr>
+<tr>
+<td title='pages.Manager_AddCustomer.testNavigationToOpenAccount()'><b>testNavigationToOpenAccount</b><br>Test class: pages.Manager_AddCustomer</td>
+<td></td>
+<td>0</td>
+<td>pages.Manager_AddCustomer@7a55f148</td></tr>
+<tr>
+<td title='pages.Manager_CustomerTable.testNavigationHomeButton()'><b>testNavigationHomeButton</b><br>Test class: pages.Manager_CustomerTable</td>
+<td></td>
+<td>0</td>
+<td>pages.Manager_CustomerTable@79a7bfbc</td></tr>
+<tr>
+<td title='pages.Manager_OpenAccount.testFormOpenAccount()'><b>testFormOpenAccount</b><br>Test class: pages.Manager_OpenAccount</td>
+<td></td>
+<td>1</td>
+<td>pages.Manager_OpenAccount@7f572c37</td></tr>
+<tr>
+<td title='pages.Customer_Login.testLoginForm()'><b>testLoginForm</b><br>Test class: pages.Customer_Login</td>
+<td></td>
+<td>0</td>
+<td>pages.Customer_Login@24841372</td></tr>
+<tr>
+<td title='pages.Manager_Dashboard.testCustomerTable()'><b>testCustomerTable</b><br>Test class: pages.Manager_Dashboard</td>
+<td></td>
+<td>0</td>
+<td>pages.Manager_Dashboard@77f68df</td></tr>
+<tr>
+<td title='pages.Customer_Dashboard.testAccountInfoDisplay()'><b>testAccountInfoDisplay</b><br>Test class: pages.Customer_Dashboard</td>
+<td></td>
+<td>0</td>
+<td>pages.Customer_Dashboard@4397a639</td></tr>
+<tr>
+<td title='pages.Manager_AddCustomer.testHomeButton()'><b>testHomeButton</b><br>Test class: pages.Manager_AddCustomer</td>
+<td></td>
+<td>0</td>
+<td>pages.Manager_AddCustomer@7a55f148</td></tr>
+<tr>
+<td title='pages.Manager_CustomerTable.testSearchBar()'><b>testSearchBar</b><br>Test class: pages.Manager_CustomerTable</td>
+<td></td>
+<td>0</td>
+<td>pages.Manager_CustomerTable@79a7bfbc</td></tr>
+<tr>
+<td title='pages.Customer_Dashboard.testSelectingAccountNumber()'><b>testSelectingAccountNumber</b><br>Test class: pages.Customer_Dashboard</td>
+<td></td>
+<td>0</td>
+<td>pages.Customer_Dashboard@4397a639</td></tr>
+<tr>
+<td title='pages.Manager_OpenAccount.testNavigationToAddCustomer()'><b>testNavigationToAddCustomer</b><br>Test class: pages.Manager_OpenAccount</td>
+<td></td>
+<td>0</td>
+<td>pages.Manager_OpenAccount@7f572c37</td></tr>
+</table><p>
+</body>
+</html>

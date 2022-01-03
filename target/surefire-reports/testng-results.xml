@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="7" total="43" passed="36" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-12-30T15:50:48 EST" name="All Tests" finished-at="2021-12-30T15:51:43 EST" duration-ms="55560">
+    <groups>
+    </groups>
+    <test started-at="2021-12-30T15:50:48 EST" name="C:\Users\br3nd\IdeaProjects\Selenium\src\test\java" finished-at="2021-12-30T15:51:43 EST" duration-ms="55560">
+      <class name="pages.Manager_OpenAccount">
+        <test-method is-config="true" signature="setup()[pri:0, instance:pages.Manager_OpenAccount@7f572c37]" started-at="2021-12-30T15:51:04 EST" name="setup" finished-at="2021-12-30T15:51:04 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testFormOpenAccount()[pri:0, instance:pages.Manager_OpenAccount@7f572c37]" started-at="2021-12-30T15:51:04 EST" name="testFormOpenAccount" finished-at="2021-12-30T15:51:05 EST" duration-ms="1174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFormOpenAccount -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:pages.Manager_OpenAccount@7f572c37]" started-at="2021-12-30T15:51:05 EST" name="setup" finished-at="2021-12-30T15:51:05 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testHomeButton()[pri:0, instance:pages.Manager_OpenAccount@7f572c37]" started-at="2021-12-30T15:51:05 EST" name="testHomeButton" finished-at="2021-12-30T15:51:05 EST" duration-ms="113" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHomeButton -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:pages.Manager_OpenAccount@7f572c37]" started-at="2021-12-30T15:51:05 EST" name="setup" finished-at="2021-12-30T15:51:05 EST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testNavigationToAddCustomer()[pri:0, instance:pages.Manager_OpenAccount@7f572c37]" started-at="2021-12-30T15:51:05 EST" name="testNavigationToAddCustomer" finished-at="2021-12-30T15:51:05 EST" duration-ms="88" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNavigationToAddCustomer -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:pages.Manager_OpenAccount@7f572c37]" started-at="2021-12-30T15:51:05 EST" name="setup" finished-at="2021-12-30T15:51:05 EST" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testNavigationToCustomersTable()[pri:0, instance:pages.Manager_OpenAccount@7f572c37]" started-at="2021-12-30T15:51:05 EST" name="testNavigationToCustomersTable" finished-at="2021-12-30T15:51:05 EST" duration-ms="92" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNavigationToCustomersTable -->
+      </class> <!-- pages.Manager_OpenAccount -->
+      <class name="pages.Customer_Transactions">
+        <test-method is-config="true" signature="setup()[pri:0, instance:pages.Customer_Transactions@77114efe]" started-at="2021-12-30T15:51:12 EST" name="setup" finished-at="2021-12-30T15:51:12 EST" duration-ms="445" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testDatePicker()[pri:0, instance:pages.Customer_Transactions@77114efe]" started-at="2021-12-30T15:51:12 EST" name="testDatePicker" finished-at="2021-12-30T15:51:28 EST" duration-ms="16491" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDatePicker -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:pages.Customer_Transactions@77114efe]" started-at="2021-12-30T15:51:28 EST" name="setup" finished-at="2021-12-30T15:51:29 EST" duration-ms="449" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testHomeButton()[pri:0, instance:pages.Customer_Transactions@77114efe]" started-at="2021-12-30T15:51:29 EST" name="testHomeButton" finished-at="2021-12-30T15:51:29 EST" duration-ms="102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHomeButton -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:pages.Customer_Transactions@77114efe]" started-at="2021-12-30T15:51:29 EST" name="setup" finished-at="2021-12-30T15:51:29 EST" duration-ms="436" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLogoutButton()[pri:0, instance:pages.Customer_Transactions@77114efe]" started-at="2021-12-30T15:51:29 EST" name="testLogoutButton" finished-at="2021-12-30T15:51:30 EST" duration-ms="90" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogoutButton -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:pages.Customer_Transactions@77114efe]" started-at="2021-12-30T15:51:30 EST" name="setup" finished-at="2021-12-30T15:51:30 EST" duration-ms="435" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testResetButton_andCorrectRecentData()[pri:0, instance:pages.Customer_Transactions@77114efe]" started-at="2021-12-30T15:51:30 EST" name="testResetButton_andCorrectRecentData" finished-at="2021-12-30T15:51:34 EST" duration-ms="3680" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testResetButton_andCorrectRecentData -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:pages.Customer_Transactions@77114efe]" started-at="2021-12-30T15:51:34 EST" name="setup" finished-at="2021-12-30T15:51:34 EST" duration-ms="411" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testTableSorting()[pri:0, instance:pages.Customer_Transactions@77114efe]" started-at="2021-12-30T15:51:34 EST" name="testTableSorting" finished-at="2021-12-30T15:51:39 EST" duration-ms="5235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTableSorting -->
+      </class> <!-- pages.Customer_Transactions -->
+      <class name="pages.Customer_Login">
+        <test-method is-config="true" signature="setup()[pri:0, instance:pages.Customer_Login@24841372]" started-at="2021-12-30T15:51:11 EST" name="setup" finished-at="2021-12-30T15:51:11 EST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLoginForm()[pri:0, instance:pages.Customer_Login@24841372]" started-at="2021-12-30T15:51:11 EST" name="testLoginForm" finished-at="2021-12-30T15:51:11 EST" duration-ms="293" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoginForm -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:pages.Customer_Login@24841372]" started-at="2021-12-30T15:51:11 EST" name="setup" finished-at="2021-12-30T15:51:11 EST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testNavigationHome()[pri:0, instance:pages.Customer_Login@24841372]" started-at="2021-12-30T15:51:11 EST" name="testNavigationHome" finished-at="2021-12-30T15:51:12 EST" duration-ms="109" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNavigationHome -->
+      </class> <!-- pages.Customer_Login -->
+      <class name="pages.Customer_Dashboard">
+        <test-method is-config="true" signature="setup()[pri:0, instance:pages.Customer_Dashboard@4397a639]" started-at="2021-12-30T15:51:05 EST" name="setup" finished-at="2021-12-30T15:51:06 EST" duration-ms="1328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test()[pri:0, instance:pages.Customer_Dashboard@4397a639]" started-at="2021-12-30T15:51:06 EST" name="test" finished-at="2021-12-30T15:51:08 EST" duration-ms="1523" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:pages.Customer_Dashboard@4397a639]" started-at="2021-12-30T15:51:08 EST" name="setup" finished-at="2021-12-30T15:51:08 EST" duration-ms="312" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testAccountInfoDisplay()[pri:0, instance:pages.Customer_Dashboard@4397a639]" started-at="2021-12-30T15:51:08 EST" name="testAccountInfoDisplay" finished-at="2021-12-30T15:51:08 EST" duration-ms="186" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAccountInfoDisplay -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:pages.Customer_Dashboard@4397a639]" started-at="2021-12-30T15:51:08 EST" name="setup" finished-at="2021-12-30T15:51:09 EST" duration-ms="307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testHomeButton()[pri:0, instance:pages.Customer_Dashboard@4397a639]" started-at="2021-12-30T15:51:09 EST" name="testHomeButton" finished-at="2021-12-30T15:51:09 EST" duration-ms="85" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHomeButton -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:pages.Customer_Dashboard@4397a639]" started-at="2021-12-30T15:51:09 EST" name="setup" finished-at="2021-12-30T15:51:09 EST" duration-ms="319" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLogoutButton()[pri:0, instance:pages.Customer_Dashboard@4397a639]" started-at="2021-12-30T15:51:09 EST" name="testLogoutButton" finished-at="2021-12-30T15:51:09 EST" duration-ms="92" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogoutButton -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:pages.Customer_Dashboard@4397a639]" started-at="2021-12-30T15:51:09 EST" name="setup" finished-at="2021-12-30T15:51:09 EST" duration-ms="297" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testNavigationTransactions()[pri:0, instance:pages.Customer_Dashboard@4397a639]" started-at="2021-12-30T15:51:09 EST" name="testNavigationTransactions" finished-at="2021-12-30T15:51:10 EST" duration-ms="598" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNavigationTransactions -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:pages.Customer_Dashboard@4397a639]" started-at="2021-12-30T15:51:10 EST" name="setup" finished-at="2021-12-30T15:51:10 EST" duration-ms="313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testSelectingAccountNumber()[pri:0, instance:pages.Customer_Dashboard@4397a639]" started-at="2021-12-30T15:51:10 EST" name="testSelectingAccountNumber" finished-at="2021-12-30T15:51:11 EST" duration-ms="392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSelectingAccountNumber -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:pages.Customer_Dashboard@4397a639]" started-at="2021-12-30T15:51:11 EST" name="setup" finished-at="2021-12-30T15:51:11 EST" duration-ms="306" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testUserGreeting()[pri:0, instance:pages.Customer_Dashboard@4397a639]" started-at="2021-12-30T15:51:11 EST" name="testUserGreeting" finished-at="2021-12-30T15:51:11 EST" duration-ms="65" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserGreeting -->
+      </class> <!-- pages.Customer_Dashboard -->
+      <class name="pages.Manager_AddCustomer">
+        <test-method is-config="true" signature="setup()[pri:0, instance:pages.Manager_AddCustomer@7a55f148]" started-at="2021-12-30T15:50:59 EST" name="setup" finished-at="2021-12-30T15:50:59 EST" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testAddCustomerForm()[pri:0, instance:pages.Manager_AddCustomer@7a55f148]" started-at="2021-12-30T15:50:59 EST" name="testAddCustomerForm" finished-at="2021-12-30T15:51:03 EST" duration-ms="3853" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddCustomerForm -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:pages.Manager_AddCustomer@7a55f148]" started-at="2021-12-30T15:51:03 EST" name="setup" finished-at="2021-12-30T15:51:03 EST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testHomeButton()[pri:0, instance:pages.Manager_AddCustomer@7a55f148]" started-at="2021-12-30T15:51:03 EST" name="testHomeButton" finished-at="2021-12-30T15:51:03 EST" duration-ms="112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHomeButton -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:pages.Manager_AddCustomer@7a55f148]" started-at="2021-12-30T15:51:03 EST" name="setup" finished-at="2021-12-30T15:51:03 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testNavigationToCustomersTable()[pri:0, instance:pages.Manager_AddCustomer@7a55f148]" started-at="2021-12-30T15:51:03 EST" name="testNavigationToCustomersTable" finished-at="2021-12-30T15:51:03 EST" duration-ms="93" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNavigationToCustomersTable -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:pages.Manager_AddCustomer@7a55f148]" started-at="2021-12-30T15:51:03 EST" name="setup" finished-at="2021-12-30T15:51:03 EST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testNavigationToOpenAccount()[pri:0, instance:pages.Manager_AddCustomer@7a55f148]" started-at="2021-12-30T15:51:03 EST" name="testNavigationToOpenAccount" finished-at="2021-12-30T15:51:04 EST" duration-ms="599" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNavigationToOpenAccount -->
+      </class> <!-- pages.Manager_AddCustomer -->
+      <class name="pages.Home">
+        <test-method is-config="true" signature="setup()[pri:0, instance:pages.Home@26a262d6]" started-at="2021-12-30T15:50:48 EST" name="setup" finished-at="2021-12-30T15:50:48 EST" duration-ms="39" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:pages.Home@26a262d6]" started-at="2021-12-30T15:50:48 EST" name="beforeClass" finished-at="2021-12-30T15:50:48 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="toHome()[pri:0, instance:pages.Home@26a262d6]" started-at="2021-12-30T15:50:48 EST" name="toHome" finished-at="2021-12-30T15:50:53 EST" duration-ms="4892" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toHome -->
+        <test-method signature="test_mainContent_CustomerLoginButton()[pri:0, instance:pages.Home@26a262d6]" started-at="2021-12-30T15:50:53 EST" name="test_mainContent_CustomerLoginButton" finished-at="2021-12-30T15:50:56 EST" duration-ms="3278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_mainContent_CustomerLoginButton -->
+        <test-method is-config="true" signature="toHome()[pri:0, instance:pages.Home@26a262d6]" started-at="2021-12-30T15:50:56 EST" name="toHome" finished-at="2021-12-30T15:50:56 EST" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toHome -->
+        <test-method signature="test_mainContent_ManagerLoginButton()[pri:0, instance:pages.Home@26a262d6]" started-at="2021-12-30T15:50:56 EST" name="test_mainContent_ManagerLoginButton" finished-at="2021-12-30T15:50:59 EST" duration-ms="2645" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_mainContent_ManagerLoginButton -->
+        <test-method is-config="true" signature="toHome()[pri:0, instance:pages.Home@26a262d6]" started-at="2021-12-30T15:50:59 EST" name="toHome" finished-at="2021-12-30T15:50:59 EST" duration-ms="20" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toHome -->
+        <test-method signature="test_navbar_HomeButton()[pri:0, instance:pages.Home@26a262d6]" started-at="2021-12-30T15:50:59 EST" name="test_navbar_HomeButton" finished-at="2021-12-30T15:50:59 EST" duration-ms="88" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_navbar_HomeButton -->
+        <test-method is-config="true" signature="afterClass()[pri:0, instance:pages.Home@26a262d6]" started-at="2021-12-30T15:50:59 EST" name="afterClass" finished-at="2021-12-30T15:50:59 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:pages.Home@26a262d6]" started-at="2021-12-30T15:51:43 EST" name="teardown" finished-at="2021-12-30T15:51:43 EST" duration-ms="568" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- pages.Home -->
+      <class name="pages.Manager_Dashboard">
+        <test-method is-config="true" signature="setup()[pri:0, instance:pages.Manager_Dashboard@77f68df]" started-at="2021-12-30T15:51:42 EST" name="setup" finished-at="2021-12-30T15:51:42 EST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testAddCusterButton()[pri:0, instance:pages.Manager_Dashboard@77f68df]" started-at="2021-12-30T15:51:42 EST" name="testAddCusterButton" finished-at="2021-12-30T15:51:42 EST" duration-ms="96" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddCusterButton -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:pages.Manager_Dashboard@77f68df]" started-at="2021-12-30T15:51:42 EST" name="setup" finished-at="2021-12-30T15:51:42 EST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testCustomerTable()[pri:0, instance:pages.Manager_Dashboard@77f68df]" started-at="2021-12-30T15:51:42 EST" name="testCustomerTable" finished-at="2021-12-30T15:51:43 EST" duration-ms="91" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCustomerTable -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:pages.Manager_Dashboard@77f68df]" started-at="2021-12-30T15:51:43 EST" name="setup" finished-at="2021-12-30T15:51:43 EST" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testHomeButton()[pri:0, instance:pages.Manager_Dashboard@77f68df]" started-at="2021-12-30T15:51:43 EST" name="testHomeButton" finished-at="2021-12-30T15:51:43 EST" duration-ms="116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHomeButton -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:pages.Manager_Dashboard@77f68df]" started-at="2021-12-30T15:51:43 EST" name="setup" finished-at="2021-12-30T15:51:43 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testOpenAccountButton()[pri:0, instance:pages.Manager_Dashboard@77f68df]" started-at="2021-12-30T15:51:43 EST" name="testOpenAccountButton" finished-at="2021-12-30T15:51:43 EST" duration-ms="90" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOpenAccountButton -->
+      </class> <!-- pages.Manager_Dashboard -->
+      <class name="pages.Manager_CustomerTable">
+        <test-method is-config="true" signature="setup()[pri:0, instance:pages.Manager_CustomerTable@79a7bfbc]" started-at="2021-12-30T15:51:39 EST" name="setup" finished-at="2021-12-30T15:51:39 EST" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testDeleteCustomer()[pri:0, instance:pages.Manager_CustomerTable@79a7bfbc]" started-at="2021-12-30T15:51:39 EST" name="testDeleteCustomer" finished-at="2021-12-30T15:51:40 EST" duration-ms="425" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteCustomer -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:pages.Manager_CustomerTable@79a7bfbc]" started-at="2021-12-30T15:51:40 EST" name="setup" finished-at="2021-12-30T15:51:40 EST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testNavigationAddCustomer()[pri:0, instance:pages.Manager_CustomerTable@79a7bfbc]" started-at="2021-12-30T15:51:40 EST" name="testNavigationAddCustomer" finished-at="2021-12-30T15:51:40 EST" duration-ms="91" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNavigationAddCustomer -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:pages.Manager_CustomerTable@79a7bfbc]" started-at="2021-12-30T15:51:40 EST" name="setup" finished-at="2021-12-30T15:51:40 EST" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testNavigationHomeButton()[pri:0, instance:pages.Manager_CustomerTable@79a7bfbc]" started-at="2021-12-30T15:51:40 EST" name="testNavigationHomeButton" finished-at="2021-12-30T15:51:40 EST" duration-ms="108" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNavigationHomeButton -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:pages.Manager_CustomerTable@79a7bfbc]" started-at="2021-12-30T15:51:40 EST" name="setup" finished-at="2021-12-30T15:51:40 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testNavigationOpenAccount()[pri:0, instance:pages.Manager_CustomerTable@79a7bfbc]" started-at="2021-12-30T15:51:40 EST" name="testNavigationOpenAccount" finished-at="2021-12-30T15:51:40 EST" duration-ms="89" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNavigationOpenAccount -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:pages.Manager_CustomerTable@79a7bfbc]" started-at="2021-12-30T15:51:40 EST" name="setup" finished-at="2021-12-30T15:51:40 EST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testSearchBar()[pri:0, instance:pages.Manager_CustomerTable@79a7bfbc]" started-at="2021-12-30T15:51:40 EST" name="testSearchBar" finished-at="2021-12-30T15:51:40 EST" duration-ms="256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testSearchBar -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:pages.Manager_CustomerTable@79a7bfbc]" started-at="2021-12-30T15:51:40 EST" name="setup" finished-at="2021-12-30T15:51:40 EST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testTableShowsNewAccounts()[pri:0, instance:pages.Manager_CustomerTable@79a7bfbc]" started-at="2021-12-30T15:51:40 EST" name="testTableShowsNewAccounts" finished-at="2021-12-30T15:51:41 EST" duration-ms="674" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTableShowsNewAccounts -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:pages.Manager_CustomerTable@79a7bfbc]" started-at="2021-12-30T15:51:41 EST" name="setup" finished-at="2021-12-30T15:51:41 EST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testTableSort()[pri:0, instance:pages.Manager_CustomerTable@79a7bfbc]" started-at="2021-12-30T15:51:41 EST" name="testTableSort" finished-at="2021-12-30T15:51:42 EST" duration-ms="1299" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTableSort -->
+      </class> <!-- pages.Manager_CustomerTable -->
+    </test> <!-- C:\Users\br3nd\IdeaProjects\Selenium\src\test\java -->
+  </suite> <!-- All Tests -->
+</testng-results>

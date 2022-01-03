@@ -1,0 +1,1235 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-All_Tests" class="navigator-link">
+              <span class="suite-name border-passed">All Tests</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-All_Tests" class="navigator-link ">
+                    <span>C:\Users\br3nd\IdeaProjects\Selenium\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-All_Tests" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-All_Tests" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-All_Tests" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-All_Tests" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-All_Tests" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-All_Tests" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">36 methods,   36 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-All_Tests" class="hide-methods passed suite-All_Tests"> (hide)</a> <!-- hide-methods passed suite-All_Tests -->
+                      <a href="#" panel-name="suite-All_Tests" class="show-methods passed suite-All_Tests"> (show)</a> <!-- show-methods passed suite-All_Tests -->
+                    </span>
+                    <div class="method-list-content passed suite-All_Tests">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Tests" title="pages.Customer_Dashboard" class="method navigator-link" hash-for-method="test">test</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Tests" title="pages.Customer_Dashboard" class="method navigator-link" hash-for-method="testAccountInfoDisplay">testAccountInfoDisplay</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Tests" title="pages.Manager_Dashboard" class="method navigator-link" hash-for-method="testAddCusterButton">testAddCusterButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Tests" title="pages.Manager_AddCustomer" class="method navigator-link" hash-for-method="testAddCustomerForm">testAddCustomerForm</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Tests" title="pages.Manager_Dashboard" class="method navigator-link" hash-for-method="testCustomerTable">testCustomerTable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Tests" title="pages.Customer_Transactions" class="method navigator-link" hash-for-method="testDatePicker">testDatePicker</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Tests" title="pages.Manager_CustomerTable" class="method navigator-link" hash-for-method="testDeleteCustomer">testDeleteCustomer</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Tests" title="pages.Manager_OpenAccount" class="method navigator-link" hash-for-method="testFormOpenAccount">testFormOpenAccount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Tests" title="pages.Customer_Dashboard" class="method navigator-link" hash-for-method="testHomeButton">testHomeButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Tests" title="pages.Customer_Transactions" class="method navigator-link" hash-for-method="testHomeButton">testHomeButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Tests" title="pages.Manager_Dashboard" class="method navigator-link" hash-for-method="testHomeButton">testHomeButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Tests" title="pages.Manager_OpenAccount" class="method navigator-link" hash-for-method="testHomeButton">testHomeButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Tests" title="pages.Manager_AddCustomer" class="method navigator-link" hash-for-method="testHomeButton">testHomeButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Tests" title="pages.Customer_Login" class="method navigator-link" hash-for-method="testLoginForm">testLoginForm</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Tests" title="pages.Customer_Transactions" class="method navigator-link" hash-for-method="testLogoutButton">testLogoutButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Tests" title="pages.Customer_Dashboard" class="method navigator-link" hash-for-method="testLogoutButton">testLogoutButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Tests" title="pages.Manager_CustomerTable" class="method navigator-link" hash-for-method="testNavigationAddCustomer">testNavigationAddCustomer</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Tests" title="pages.Customer_Login" class="method navigator-link" hash-for-method="testNavigationHome">testNavigationHome</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Tests" title="pages.Manager_CustomerTable" class="method navigator-link" hash-for-method="testNavigationHomeButton">testNavigationHomeButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Tests" title="pages.Manager_CustomerTable" class="method navigator-link" hash-for-method="testNavigationOpenAccount">testNavigationOpenAccount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Tests" title="pages.Manager_OpenAccount" class="method navigator-link" hash-for-method="testNavigationToAddCustomer">testNavigationToAddCustomer</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Tests" title="pages.Manager_OpenAccount" class="method navigator-link" hash-for-method="testNavigationToCustomersTable">testNavigationToCustomersTable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Tests" title="pages.Manager_AddCustomer" class="method navigator-link" hash-for-method="testNavigationToCustomersTable">testNavigationToCustomersTable</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Tests" title="pages.Manager_AddCustomer" class="method navigator-link" hash-for-method="testNavigationToOpenAccount">testNavigationToOpenAccount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Tests" title="pages.Customer_Dashboard" class="method navigator-link" hash-for-method="testNavigationTransactions">testNavigationTransactions</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Tests" title="pages.Manager_Dashboard" class="method navigator-link" hash-for-method="testOpenAccountButton">testOpenAccountButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Tests" title="pages.Customer_Transactions" class="method navigator-link" hash-for-method="testResetButton_andCorrectRecentData">testResetButton_andCorrectRecentData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Tests" title="pages.Manager_CustomerTable" class="method navigator-link" hash-for-method="testSearchBar">testSearchBar</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Tests" title="pages.Customer_Dashboard" class="method navigator-link" hash-for-method="testSelectingAccountNumber">testSelectingAccountNumber</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Tests" title="pages.Manager_CustomerTable" class="method navigator-link" hash-for-method="testTableShowsNewAccounts">testTableShowsNewAccounts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Tests" title="pages.Manager_CustomerTable" class="method navigator-link" hash-for-method="testTableSort">testTableSort</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Tests" title="pages.Customer_Transactions" class="method navigator-link" hash-for-method="testTableSorting">testTableSorting</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Tests" title="pages.Customer_Dashboard" class="method navigator-link" hash-for-method="testUserGreeting">testUserGreeting</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Tests" title="pages.Home" class="method navigator-link" hash-for-method="test_mainContent_CustomerLoginButton">test_mainContent_CustomerLoginButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Tests" title="pages.Home" class="method navigator-link" hash-for-method="test_mainContent_ManagerLoginButton">test_mainContent_ManagerLoginButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-All_Tests" title="pages.Home" class="method navigator-link" hash-for-method="test_navbar_HomeButton">test_navbar_HomeButton</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-All_Tests -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-All_Tests" class="panel All_Tests">
+          <div class="suite-All_Tests-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">pages.Home</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_mainContent_CustomerLoginButton">
+                  </a> <!-- test_mainContent_CustomerLoginButton -->
+                  <span class="method-name">test_mainContent_CustomerLoginButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_mainContent_ManagerLoginButton">
+                  </a> <!-- test_mainContent_ManagerLoginButton -->
+                  <span class="method-name">test_mainContent_ManagerLoginButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="test_navbar_HomeButton">
+                  </a> <!-- test_navbar_HomeButton -->
+                  <span class="method-name">test_navbar_HomeButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Tests-class-passed -->
+          <div class="suite-All_Tests-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">pages.Customer_Login</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLoginForm">
+                  </a> <!-- testLoginForm -->
+                  <span class="method-name">testLoginForm</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNavigationHome">
+                  </a> <!-- testNavigationHome -->
+                  <span class="method-name">testNavigationHome</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Tests-class-passed -->
+          <div class="suite-All_Tests-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">pages.Manager_CustomerTable</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDeleteCustomer">
+                  </a> <!-- testDeleteCustomer -->
+                  <span class="method-name">testDeleteCustomer</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNavigationAddCustomer">
+                  </a> <!-- testNavigationAddCustomer -->
+                  <span class="method-name">testNavigationAddCustomer</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNavigationHomeButton">
+                  </a> <!-- testNavigationHomeButton -->
+                  <span class="method-name">testNavigationHomeButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNavigationOpenAccount">
+                  </a> <!-- testNavigationOpenAccount -->
+                  <span class="method-name">testNavigationOpenAccount</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSearchBar">
+                  </a> <!-- testSearchBar -->
+                  <span class="method-name">testSearchBar</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTableShowsNewAccounts">
+                  </a> <!-- testTableShowsNewAccounts -->
+                  <span class="method-name">testTableShowsNewAccounts</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTableSort">
+                  </a> <!-- testTableSort -->
+                  <span class="method-name">testTableSort</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Tests-class-passed -->
+          <div class="suite-All_Tests-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">pages.Customer_Dashboard</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="test">
+                  </a> <!-- test -->
+                  <span class="method-name">test</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAccountInfoDisplay">
+                  </a> <!-- testAccountInfoDisplay -->
+                  <span class="method-name">testAccountInfoDisplay</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testHomeButton">
+                  </a> <!-- testHomeButton -->
+                  <span class="method-name">testHomeButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogoutButton">
+                  </a> <!-- testLogoutButton -->
+                  <span class="method-name">testLogoutButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNavigationTransactions">
+                  </a> <!-- testNavigationTransactions -->
+                  <span class="method-name">testNavigationTransactions</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSelectingAccountNumber">
+                  </a> <!-- testSelectingAccountNumber -->
+                  <span class="method-name">testSelectingAccountNumber</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testUserGreeting">
+                  </a> <!-- testUserGreeting -->
+                  <span class="method-name">testUserGreeting</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Tests-class-passed -->
+          <div class="suite-All_Tests-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">pages.Manager_AddCustomer</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddCustomerForm">
+                  </a> <!-- testAddCustomerForm -->
+                  <span class="method-name">testAddCustomerForm</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testHomeButton">
+                  </a> <!-- testHomeButton -->
+                  <span class="method-name">testHomeButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNavigationToCustomersTable">
+                  </a> <!-- testNavigationToCustomersTable -->
+                  <span class="method-name">testNavigationToCustomersTable</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNavigationToOpenAccount">
+                  </a> <!-- testNavigationToOpenAccount -->
+                  <span class="method-name">testNavigationToOpenAccount</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Tests-class-passed -->
+          <div class="suite-All_Tests-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">pages.Customer_Transactions</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testDatePicker">
+                  </a> <!-- testDatePicker -->
+                  <span class="method-name">testDatePicker</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testHomeButton">
+                  </a> <!-- testHomeButton -->
+                  <span class="method-name">testHomeButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogoutButton">
+                  </a> <!-- testLogoutButton -->
+                  <span class="method-name">testLogoutButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testResetButton_andCorrectRecentData">
+                  </a> <!-- testResetButton_andCorrectRecentData -->
+                  <span class="method-name">testResetButton_andCorrectRecentData</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testTableSorting">
+                  </a> <!-- testTableSorting -->
+                  <span class="method-name">testTableSorting</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Tests-class-passed -->
+          <div class="suite-All_Tests-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">pages.Manager_OpenAccount</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFormOpenAccount">
+                  </a> <!-- testFormOpenAccount -->
+                  <span class="method-name">testFormOpenAccount</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testHomeButton">
+                  </a> <!-- testHomeButton -->
+                  <span class="method-name">testHomeButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNavigationToAddCustomer">
+                  </a> <!-- testNavigationToAddCustomer -->
+                  <span class="method-name">testNavigationToAddCustomer</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNavigationToCustomersTable">
+                  </a> <!-- testNavigationToCustomersTable -->
+                  <span class="method-name">testNavigationToCustomersTable</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Tests-class-passed -->
+          <div class="suite-All_Tests-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">pages.Manager_Dashboard</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testAddCusterButton">
+                  </a> <!-- testAddCusterButton -->
+                  <span class="method-name">testAddCusterButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testCustomerTable">
+                  </a> <!-- testCustomerTable -->
+                  <span class="method-name">testCustomerTable</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testHomeButton">
+                  </a> <!-- testHomeButton -->
+                  <span class="method-name">testHomeButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testOpenAccountButton">
+                  </a> <!-- testOpenAccountButton -->
+                  <span class="method-name">testOpenAccountButton</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-All_Tests-class-passed -->
+        </div> <!-- panel All_Tests -->
+        <div panel-name="test-xml-All_Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\br3nd\IdeaProjects\Selenium\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;All Tests&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;listeners.TestNGListener&quot;/&gt;
+    &lt;listener class-name=&quot;listeners.AnnotationTransformer&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;C:\Users\br3nd\IdeaProjects\Selenium\src\test\java&quot; verbose=&quot;2&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;pages.Home&quot;/&gt;
+      &lt;class name=&quot;pages.Manager_AddCustomer&quot;/&gt;
+      &lt;class name=&quot;pages.Manager_OpenAccount&quot;/&gt;
+      &lt;class name=&quot;pages.Customer_Dashboard&quot;/&gt;
+      &lt;class name=&quot;pages.Customer_Login&quot;/&gt;
+      &lt;class name=&quot;pages.Customer_Transactions&quot;/&gt;
+      &lt;class name=&quot;pages.Manager_CustomerTable&quot;/&gt;
+      &lt;class name=&quot;pages.Manager_Dashboard&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- C:\Users\br3nd\IdeaProjects\Selenium\src\test\java --&gt;
+&lt;/suite&gt; &lt;!-- All Tests --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-All_Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for All Tests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">C:\Users\br3nd\IdeaProjects\Selenium\src\test\java (8 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-All_Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for All Tests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-All_Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for All Tests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_All_Tests');
+function tableData_All_Tests() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(36);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testDatePicker')
+data.setCell(0, 2, 'pages.Customer_Transactions')
+data.setCell(0, 3, 16491);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testTableSorting')
+data.setCell(1, 2, 'pages.Customer_Transactions')
+data.setCell(1, 3, 5235);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testAddCustomerForm')
+data.setCell(2, 2, 'pages.Manager_AddCustomer')
+data.setCell(2, 3, 3853);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testResetButton_andCorrectRecentData')
+data.setCell(3, 2, 'pages.Customer_Transactions')
+data.setCell(3, 3, 3680);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'test_mainContent_CustomerLoginButton')
+data.setCell(4, 2, 'pages.Home')
+data.setCell(4, 3, 3278);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'test_mainContent_ManagerLoginButton')
+data.setCell(5, 2, 'pages.Home')
+data.setCell(5, 3, 2645);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'test')
+data.setCell(6, 2, 'pages.Customer_Dashboard')
+data.setCell(6, 3, 1523);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'testTableSort')
+data.setCell(7, 2, 'pages.Manager_CustomerTable')
+data.setCell(7, 3, 1299);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'testFormOpenAccount')
+data.setCell(8, 2, 'pages.Manager_OpenAccount')
+data.setCell(8, 3, 1174);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'testTableShowsNewAccounts')
+data.setCell(9, 2, 'pages.Manager_CustomerTable')
+data.setCell(9, 3, 674);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'testNavigationToOpenAccount')
+data.setCell(10, 2, 'pages.Manager_AddCustomer')
+data.setCell(10, 3, 599);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'testNavigationTransactions')
+data.setCell(11, 2, 'pages.Customer_Dashboard')
+data.setCell(11, 3, 598);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'testDeleteCustomer')
+data.setCell(12, 2, 'pages.Manager_CustomerTable')
+data.setCell(12, 3, 425);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'testSelectingAccountNumber')
+data.setCell(13, 2, 'pages.Customer_Dashboard')
+data.setCell(13, 3, 392);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'testLoginForm')
+data.setCell(14, 2, 'pages.Customer_Login')
+data.setCell(14, 3, 293);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'testSearchBar')
+data.setCell(15, 2, 'pages.Manager_CustomerTable')
+data.setCell(15, 3, 256);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'testAccountInfoDisplay')
+data.setCell(16, 2, 'pages.Customer_Dashboard')
+data.setCell(16, 3, 186);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'testHomeButton')
+data.setCell(17, 2, 'pages.Manager_Dashboard')
+data.setCell(17, 3, 116);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'testHomeButton')
+data.setCell(18, 2, 'pages.Manager_OpenAccount')
+data.setCell(18, 3, 113);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'testHomeButton')
+data.setCell(19, 2, 'pages.Manager_AddCustomer')
+data.setCell(19, 3, 112);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'testNavigationHome')
+data.setCell(20, 2, 'pages.Customer_Login')
+data.setCell(20, 3, 109);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'testNavigationHomeButton')
+data.setCell(21, 2, 'pages.Manager_CustomerTable')
+data.setCell(21, 3, 108);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'testHomeButton')
+data.setCell(22, 2, 'pages.Customer_Transactions')
+data.setCell(22, 3, 102);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'testAddCusterButton')
+data.setCell(23, 2, 'pages.Manager_Dashboard')
+data.setCell(23, 3, 96);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'testNavigationToCustomersTable')
+data.setCell(24, 2, 'pages.Manager_AddCustomer')
+data.setCell(24, 3, 93);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'testNavigationToCustomersTable')
+data.setCell(25, 2, 'pages.Manager_OpenAccount')
+data.setCell(25, 3, 92);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'testLogoutButton')
+data.setCell(26, 2, 'pages.Customer_Dashboard')
+data.setCell(26, 3, 92);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'testNavigationAddCustomer')
+data.setCell(27, 2, 'pages.Manager_CustomerTable')
+data.setCell(27, 3, 91);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'testCustomerTable')
+data.setCell(28, 2, 'pages.Manager_Dashboard')
+data.setCell(28, 3, 91);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'testLogoutButton')
+data.setCell(29, 2, 'pages.Customer_Transactions')
+data.setCell(29, 3, 90);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'testOpenAccountButton')
+data.setCell(30, 2, 'pages.Manager_Dashboard')
+data.setCell(30, 3, 90);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'testNavigationOpenAccount')
+data.setCell(31, 2, 'pages.Manager_CustomerTable')
+data.setCell(31, 3, 89);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'test_navbar_HomeButton')
+data.setCell(32, 2, 'pages.Home')
+data.setCell(32, 3, 88);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'testNavigationToAddCustomer')
+data.setCell(33, 2, 'pages.Manager_OpenAccount')
+data.setCell(33, 3, 88);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'testHomeButton')
+data.setCell(34, 2, 'pages.Customer_Dashboard')
+data.setCell(34, 3, 85);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'testUserGreeting')
+data.setCell(35, 2, 'pages.Customer_Dashboard')
+data.setCell(35, 3, 65);
+window.suiteTableData['All_Tests']= { tableData: data, tableDiv: 'times-div-All_Tests'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 44 seconds</span>
+              <div id="times-div-All_Tests">
+              </div> <!-- times-div-All_Tests -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-All_Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for All Tests</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-All_Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">7 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">pages.Customer_Login</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">teardown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">pages.Manager_CustomerTable</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">teardown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">pages.Customer_Dashboard</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">teardown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">pages.Manager_AddCustomer</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">teardown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">pages.Customer_Transactions</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">teardown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">pages.Manager_Dashboard</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">teardown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">pages.Manager_OpenAccount</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">teardown</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-All_Tests" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">pages.Home</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeClass</span>
+                <span class="method-start">50 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">toHome</span>
+                <span class="method-start">59 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test_mainContent_CustomerLoginButton</span>
+                <span class="method-start">4951 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">toHome</span>
+                <span class="method-start">8231 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test_mainContent_ManagerLoginButton</span>
+                <span class="method-start">8251 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">toHome</span>
+                <span class="method-start">10896 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test_navbar_HomeButton</span>
+                <span class="method-start">10916 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">afterClass</span>
+                <span class="method-start">11004 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pages.Manager_AddCustomer</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">11006 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testAddCustomerForm</span>
+                <span class="method-start">11023 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">14876 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testHomeButton</span>
+                <span class="method-start">14879 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">14992 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testNavigationToCustomersTable</span>
+                <span class="method-start">14993 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">15087 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testNavigationToOpenAccount</span>
+                <span class="method-start">15101 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pages.Manager_OpenAccount</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">15701 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testFormOpenAccount</span>
+                <span class="method-start">15702 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">16877 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testHomeButton</span>
+                <span class="method-start">16879 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">16992 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testNavigationToAddCustomer</span>
+                <span class="method-start">16995 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">17083 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testNavigationToCustomersTable</span>
+                <span class="method-start">17101 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pages.Customer_Dashboard</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">17194 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">test</span>
+                <span class="method-start">18522 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">20046 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testAccountInfoDisplay</span>
+                <span class="method-start">20358 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">20544 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testHomeButton</span>
+                <span class="method-start">20851 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">20936 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLogoutButton</span>
+                <span class="method-start">21256 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">21348 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testNavigationTransactions</span>
+                <span class="method-start">21645 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">22244 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSelectingAccountNumber</span>
+                <span class="method-start">22557 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">22949 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testUserGreeting</span>
+                <span class="method-start">23255 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pages.Customer_Login</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">23320 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLoginForm</span>
+                <span class="method-start">23334 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">23628 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testNavigationHome</span>
+                <span class="method-start">23642 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pages.Customer_Transactions</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">23752 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testDatePicker</span>
+                <span class="method-start">24198 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">40690 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testHomeButton</span>
+                <span class="method-start">41139 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">41242 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLogoutButton</span>
+                <span class="method-start">41678 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">41768 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testResetButton_andCorrectRecentData</span>
+                <span class="method-start">42203 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">45884 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testTableSorting</span>
+                <span class="method-start">46295 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pages.Manager_CustomerTable</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">51530 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testDeleteCustomer</span>
+                <span class="method-start">51556 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">51981 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testNavigationAddCustomer</span>
+                <span class="method-start">51983 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">52075 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testNavigationHomeButton</span>
+                <span class="method-start">52094 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">52202 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testNavigationOpenAccount</span>
+                <span class="method-start">52203 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">52292 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSearchBar</span>
+                <span class="method-start">52308 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">52564 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testTableShowsNewAccounts</span>
+                <span class="method-start">52566 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">53240 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testTableSort</span>
+                <span class="method-start">53244 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pages.Manager_Dashboard</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">54544 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testAddCusterButton</span>
+                <span class="method-start">54557 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">54653 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testCustomerTable</span>
+                <span class="method-start">54668 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">54759 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testHomeButton</span>
+                <span class="method-start">54782 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">54898 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testOpenAccountButton</span>
+                <span class="method-start">54899 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">pages.Home</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">teardown</span>
+                <span class="method-start">54990 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

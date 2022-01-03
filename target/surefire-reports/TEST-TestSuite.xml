@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="58.506" tests="36" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\br3nd\.cache\selenium\chromedriver\win32\96.0.4664.45\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\br3nd\IdeaProjects\Selenium\target\test-classes;C:\Users\br3nd\IdeaProjects\Selenium\target\classes;C:\Users\br3nd\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\br3nd\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\br3nd\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\br3nd\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\br3nd\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\br3nd\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\br3nd\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\br3nd\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\br3nd\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\br3nd\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\br3nd\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\br3nd\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\br3nd\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\br3nd\.m2\repository\org\seleniumhq\selenium\selenium-java\4.1.1\selenium-java-4.1.1.jar;C:\Users\br3nd\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.1.1\selenium-devtools-v85-4.1.1.jar;C:\Users\br3nd\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\br3nd\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\br3nd\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\br3nd\.m2\repository\org\seleniumhq\selenium\selenium-json\4.1.1\selenium-json-4.1.1.jar;C:\Users\br3nd\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v94\4.1.1\selenium-devtools-v94-4.1.1.jar;C:\Users\br3nd\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v95\4.1.1\selenium-devtools-v95-4.1.1.jar;C:\Users\br3nd\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v96\4.1.1\selenium-devtools-v96-4.1.1.jar;C:\Users\br3nd\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.1.1\selenium-edge-driver-4.1.1.jar;C:\Users\br3nd\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.1.1\selenium-chromium-driver-4.1.1.jar;C:\Users\br3nd\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.1.1\selenium-firefox-driver-4.1.1.jar;C:\Users\br3nd\.m2\repository\org\seleniumhq\selenium\selenium-firefox-xpi-driver\4.1.1\selenium-firefox-xpi-driver-4.1.1.jar;C:\Users\br3nd\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.1.1\selenium-ie-driver-4.1.1.jar;C:\Users\br3nd\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\4.1.1\selenium-opera-driver-4.1.1.jar;C:\Users\br3nd\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.1.1\selenium-safari-driver-4.1.1.jar;C:\Users\br3nd\.m2\repository\org\seleniumhq\selenium\selenium-server\3.0.1\selenium-server-3.0.1.jar;C:\Users\br3nd\.m2\repository\com\beust\jcommander\1.48\jcommander-1.48.jar;C:\Users\br3nd\.m2\repository\net\jcip\jcip-annotations\1.0\jcip-annotations-1.0.jar;C:\Users\br3nd\.m2\repository\org\seleniumhq\selenium\jetty-repacked\9.2.13.v20160825\jetty-repacked-9.2.13.v20160825.jar;C:\Users\br3nd\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\br3nd\.m2\repository\org\seleniumhq\selenium\htmlunit-driver\2.23\htmlunit-driver-2.23.jar;C:\Users\br3nd\.m2\repository\net\sourceforge\htmlunit\htmlunit\2.23\htmlunit-2.23.jar;C:\Users\br3nd\.m2\repository\xalan\xalan\2.7.2\xalan-2.7.2.jar;C:\Users\br3nd\.m2\repository\xalan\serializer\2.7.2\serializer-2.7.2.jar;C:\Users\br3nd\.m2\repository\org\apache\commons\commons-lang3\3.4\commons-lang3-3.4.jar;C:\Users\br3nd\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\br3nd\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\br3nd\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\br3nd\.m2\repository\net\sourceforge\htmlunit\htmlunit-core-js\2.23\htmlunit-core-js-2.23.jar;C:\Users\br3nd\.m2\repository\net\sourceforge\htmlunit\neko-htmlunit\2.23\neko-htmlunit-2.23.jar;C:\Users\br3nd\.m2\repository\xerces\xercesImpl\2.11.0\xercesImpl-2.11.0.jar;C:\Users\br3nd\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;C:\Users\br3nd\.m2\repository\net\sourceforge\cssparser\cssparser\0.9.20\cssparser-0.9.20.jar;C:\Users\br3nd\.m2\repository\org\w3c\css\sac\1.3\sac-1.3.jar;C:\Users\br3nd\.m2\repository\commons-io\commons-io\2.5\commons-io-2.5.jar;C:\Users\br3nd\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\br3nd\.m2\repository\org\yaml\snakeyaml\1.15\snakeyaml-1.15.jar;C:\Users\br3nd\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\br3nd\.m2\repository\io\github\bonigarcia\webdrivermanager\5.0.3\webdrivermanager-5.0.3.jar;C:\Users\br3nd\.m2\repository\com\google\code\gson\gson\2.8.8\gson-2.8.8.jar;C:\Users\br3nd\.m2\repository\org\jsoup\jsoup\1.14.2\jsoup-1.14.2.jar;C:\Users\br3nd\.m2\repository\com\github\docker-java\docker-java\3.2.12\docker-java-3.2.12.jar;C:\Users\br3nd\.m2\repository\com\github\docker-java\docker-java-core\3.2.12\docker-java-core-3.2.12.jar;C:\Users\br3nd\.m2\repository\com\github\docker-java\docker-java-api\3.2.12\docker-java-api-3.2.12.jar;C:\Users\br3nd\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\br3nd\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\br3nd\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\br3nd\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\br3nd\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\br3nd\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\br3nd\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\br3nd\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.2.12\docker-java-transport-httpclient5-3.2.12.jar;C:\Users\br3nd\.m2\repository\com\github\docker-java\docker-java-transport\3.2.12\docker-java-transport-3.2.12.jar;C:\Users\br3nd\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.3\httpclient5-5.0.3.jar;C:\Users\br3nd\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.2\httpcore5-5.0.2.jar;C:\Users\br3nd\.m2\repository\net\java\dev\jna\jna\5.8.0\jna-5.8.0.jar;C:\Users\br3nd\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\br3nd\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\br3nd\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\br3nd\.m2\repository\org\jetbrains\annotations\22.0.0\annotations-22.0.0.jar;C:\Users\br3nd\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\br3nd\.m2\repository\org\apache\poi\poi-ooxml\4.1.2\poi-ooxml-4.1.2.jar;C:\Users\br3nd\.m2\repository\org\apache\poi\poi\4.1.2\poi-4.1.2.jar;C:\Users\br3nd\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\br3nd\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\br3nd\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\br3nd\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\br3nd\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\Users\br3nd\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\br3nd\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;C:\Users\br3nd\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\br3nd\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="suiteXmlFile" value="testng_smoke.xml"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.12\bin"/>
+    <property name="sun.java.command" value="C:\Users\br3nd\AppData\Local\Temp\surefire4883321455202442416\surefirebooter15436457933248118325.jar C:\Users\br3nd\AppData\Local\Temp\surefire4883321455202442416 2021-12-30T15-50-44_851-jvmRun1 surefire15289083558841031083tmp surefire_08165250815010319059tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\br3nd\IdeaProjects\Selenium\target\test-classes;C:\Users\br3nd\IdeaProjects\Selenium\target\classes;C:\Users\br3nd\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\br3nd\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\br3nd\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\br3nd\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\br3nd\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\br3nd\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\br3nd\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\br3nd\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\br3nd\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\br3nd\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\br3nd\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\br3nd\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\br3nd\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\br3nd\.m2\repository\org\seleniumhq\selenium\selenium-java\4.1.1\selenium-java-4.1.1.jar;C:\Users\br3nd\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.1.1\selenium-devtools-v85-4.1.1.jar;C:\Users\br3nd\.m2\repository\com\google\auto\service\auto-service-annotations\1.0.1\auto-service-annotations-1.0.1.jar;C:\Users\br3nd\.m2\repository\com\google\auto\service\auto-service\1.0.1\auto-service-1.0.1.jar;C:\Users\br3nd\.m2\repository\com\google\auto\auto-common\1.2\auto-common-1.2.jar;C:\Users\br3nd\.m2\repository\org\seleniumhq\selenium\selenium-json\4.1.1\selenium-json-4.1.1.jar;C:\Users\br3nd\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v94\4.1.1\selenium-devtools-v94-4.1.1.jar;C:\Users\br3nd\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v95\4.1.1\selenium-devtools-v95-4.1.1.jar;C:\Users\br3nd\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v96\4.1.1\selenium-devtools-v96-4.1.1.jar;C:\Users\br3nd\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.1.1\selenium-edge-driver-4.1.1.jar;C:\Users\br3nd\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.1.1\selenium-chromium-driver-4.1.1.jar;C:\Users\br3nd\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.1.1\selenium-firefox-driver-4.1.1.jar;C:\Users\br3nd\.m2\repository\org\seleniumhq\selenium\selenium-firefox-xpi-driver\4.1.1\selenium-firefox-xpi-driver-4.1.1.jar;C:\Users\br3nd\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.1.1\selenium-ie-driver-4.1.1.jar;C:\Users\br3nd\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\4.1.1\selenium-opera-driver-4.1.1.jar;C:\Users\br3nd\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.1.1\selenium-safari-driver-4.1.1.jar;C:\Users\br3nd\.m2\repository\org\seleniumhq\selenium\selenium-server\3.0.1\selenium-server-3.0.1.jar;C:\Users\br3nd\.m2\repository\com\beust\jcommander\1.48\jcommander-1.48.jar;C:\Users\br3nd\.m2\repository\net\jcip\jcip-annotations\1.0\jcip-annotations-1.0.jar;C:\Users\br3nd\.m2\repository\org\seleniumhq\selenium\jetty-repacked\9.2.13.v20160825\jetty-repacked-9.2.13.v20160825.jar;C:\Users\br3nd\.m2\repository\javax\servlet\javax.servlet-api\3.1.0\javax.servlet-api-3.1.0.jar;C:\Users\br3nd\.m2\repository\org\seleniumhq\selenium\htmlunit-driver\2.23\htmlunit-driver-2.23.jar;C:\Users\br3nd\.m2\repository\net\sourceforge\htmlunit\htmlunit\2.23\htmlunit-2.23.jar;C:\Users\br3nd\.m2\repository\xalan\xalan\2.7.2\xalan-2.7.2.jar;C:\Users\br3nd\.m2\repository\xalan\serializer\2.7.2\serializer-2.7.2.jar;C:\Users\br3nd\.m2\repository\org\apache\commons\commons-lang3\3.4\commons-lang3-3.4.jar;C:\Users\br3nd\.m2\repository\org\apache\httpcomponents\httpclient\4.5.2\httpclient-4.5.2.jar;C:\Users\br3nd\.m2\repository\org\apache\httpcomponents\httpcore\4.4.4\httpcore-4.4.4.jar;C:\Users\br3nd\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Users\br3nd\.m2\repository\net\sourceforge\htmlunit\htmlunit-core-js\2.23\htmlunit-core-js-2.23.jar;C:\Users\br3nd\.m2\repository\net\sourceforge\htmlunit\neko-htmlunit\2.23\neko-htmlunit-2.23.jar;C:\Users\br3nd\.m2\repository\xerces\xercesImpl\2.11.0\xercesImpl-2.11.0.jar;C:\Users\br3nd\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;C:\Users\br3nd\.m2\repository\net\sourceforge\cssparser\cssparser\0.9.20\cssparser-0.9.20.jar;C:\Users\br3nd\.m2\repository\org\w3c\css\sac\1.3\sac-1.3.jar;C:\Users\br3nd\.m2\repository\commons-io\commons-io\2.5\commons-io-2.5.jar;C:\Users\br3nd\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\br3nd\.m2\repository\org\yaml\snakeyaml\1.15\snakeyaml-1.15.jar;C:\Users\br3nd\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar;C:\Users\br3nd\.m2\repository\io\github\bonigarcia\webdrivermanager\5.0.3\webdrivermanager-5.0.3.jar;C:\Users\br3nd\.m2\repository\com\google\code\gson\gson\2.8.8\gson-2.8.8.jar;C:\Users\br3nd\.m2\repository\org\jsoup\jsoup\1.14.2\jsoup-1.14.2.jar;C:\Users\br3nd\.m2\repository\com\github\docker-java\docker-java\3.2.12\docker-java-3.2.12.jar;C:\Users\br3nd\.m2\repository\com\github\docker-java\docker-java-core\3.2.12\docker-java-core-3.2.12.jar;C:\Users\br3nd\.m2\repository\com\github\docker-java\docker-java-api\3.2.12\docker-java-api-3.2.12.jar;C:\Users\br3nd\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\br3nd\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\br3nd\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\br3nd\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\br3nd\.m2\repository\org\bouncycastle\bcpkix-jdk15on\1.64\bcpkix-jdk15on-1.64.jar;C:\Users\br3nd\.m2\repository\org\bouncycastle\bcprov-jdk15on\1.64\bcprov-jdk15on-1.64.jar;C:\Users\br3nd\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\br3nd\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.2.12\docker-java-transport-httpclient5-3.2.12.jar;C:\Users\br3nd\.m2\repository\com\github\docker-java\docker-java-transport\3.2.12\docker-java-transport-3.2.12.jar;C:\Users\br3nd\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.0.3\httpclient5-5.0.3.jar;C:\Users\br3nd\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.0.2\httpcore5-5.0.2.jar;C:\Users\br3nd\.m2\repository\net\java\dev\jna\jna\5.8.0\jna-5.8.0.jar;C:\Users\br3nd\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\br3nd\.m2\repository\org\testng\testng\7.4.0\testng-7.4.0.jar;C:\Users\br3nd\.m2\repository\org\webjars\jquery\3.5.1\jquery-3.5.1.jar;C:\Users\br3nd\.m2\repository\org\jetbrains\annotations\22.0.0\annotations-22.0.0.jar;C:\Users\br3nd\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\br3nd\.m2\repository\org\apache\poi\poi-ooxml\4.1.2\poi-ooxml-4.1.2.jar;C:\Users\br3nd\.m2\repository\org\apache\poi\poi\4.1.2\poi-4.1.2.jar;C:\Users\br3nd\.m2\repository\commons-codec\commons-codec\1.13\commons-codec-1.13.jar;C:\Users\br3nd\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\br3nd\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\br3nd\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\br3nd\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\Users\br3nd\.m2\repository\org\apache\xmlbeans\xmlbeans\3.1.0\xmlbeans-3.1.0.jar;C:\Users\br3nd\.m2\repository\org\apache\commons\commons-compress\1.19\commons-compress-1.19.jar;C:\Users\br3nd\.m2\repository\com\github\virtuald\curvesapi\1.06\curvesapi-1.06.jar;C:\Users\br3nd\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\br3nd"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-07-20"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.12"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\br3nd\IdeaProjects\Selenium"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\br3nd\AppData\Local\Temp\surefire4883321455202442416\surefirebooter15436457933248118325.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.12+8-LTS-237"/>
+    <property name="user.name" value="br3nd"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="localRepository" value="C:\Users\br3nd\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\br3nd\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.12"/>
+    <property name="user.dir" value="C:\Users\br3nd\IdeaProjects\Selenium"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.12\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\br3nd\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Python310\Scripts;C:\Python310;C:\Python38\Scripts;C:\Python38;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\MongoDB\Server\4.4\bin;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\nodejs;C:\Program Files\Java\jdk-11.0.12;C:\Program Files\apache-maven-3.8.4\bin;C:\Users\br3nd\AppData\Local\Microsoft\WindowsApps;C:\Users\br3nd\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\heroku\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\MongoDB\mongosh-1.0.7-win32-x64\mongosh-1.0.7-win32-x64\bin;C:\Users\br3nd\AppData\Roaming\npm;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.2.3\bin;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.12+8-LTS-237"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="test_mainContent_CustomerLoginButton" classname="pages.Home" time="3.269">
+    <system-out><![CDATA[INFO  BaseTest - @BeforeTest: info
+WARN  BaseTest - @BeforeTest: warn
+ERROR BaseTest - @BeforeTest: error
+DEBUG BaseTest - @BeforeTest: debug
+FATAL BaseTest - @BeforeTest: fatal
+NAVIGATION: start
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 96.0.4664.45 (76e4c1bb2ab4671b8beba3444e61c0f17584b2fc-refs/branch-heads/4664@{#947}) on port 22589
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Dec 30, 2021 3:50:47 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+log4j:WARN No such property [conversationPattern] in org.apache.log4j.PatternLayout.
+]]></system-err>
+  </testcase>
+  <testcase name="test_mainContent_ManagerLoginButton" classname="pages.Home" time="2.644">
+    <system-out><![CDATA[NAVIGATION: start
+]]></system-out>
+  </testcase>
+  <testcase name="test_navbar_HomeButton" classname="pages.Home" time="0.087">
+    <system-out><![CDATA[NAVIGATION: start
+]]></system-out>
+  </testcase>
+  <testcase name="testAddCustomerForm" classname="pages.Manager_AddCustomer" time="3.854">
+    <system-out><![CDATA[utils.Excel_Sheet@45b15381
+row: Manager-AddCustomer={INPUT-3=pcode0, =, INPUT-4=null, INPUT-1=fname1, INPUT-2=lname1}
+Key: Manager-AddCustomer, Values: {INPUT-3=pcode0, =, INPUT-4=null, INPUT-1=fname1, INPUT-2=lname1}
+alertText: Customer added successfully with customer id :6
+]]></system-out>
+  </testcase>
+  <testcase name="testHomeButton" classname="pages.Manager_AddCustomer" time="0.113">
+    <system-out><![CDATA[utils.Excel_Sheet@45b15381
+]]></system-out>
+  </testcase>
+  <testcase name="testNavigationToCustomersTable" classname="pages.Manager_AddCustomer" time="0.094">
+    <system-out><![CDATA[utils.Excel_Sheet@45b15381
+]]></system-out>
+  </testcase>
+  <testcase name="testNavigationToOpenAccount" classname="pages.Manager_AddCustomer" time="0.598">
+    <system-out><![CDATA[utils.Excel_Sheet@45b15381
+]]></system-out>
+  </testcase>
+  <testcase name="testFormOpenAccount" classname="pages.Manager_OpenAccount" time="1.175"/>
+  <testcase name="testHomeButton" classname="pages.Manager_OpenAccount" time="0.113"/>
+  <testcase name="testNavigationToAddCustomer" classname="pages.Manager_OpenAccount" time="0.088"/>
+  <testcase name="testNavigationToCustomersTable" classname="pages.Manager_OpenAccount" time="0.092"/>
+  <testcase name="test" classname="pages.Customer_Dashboard" time="1.524"/>
+  <testcase name="testAccountInfoDisplay" classname="pages.Customer_Dashboard" time="0.186"/>
+  <testcase name="testHomeButton" classname="pages.Customer_Dashboard" time="0.084"/>
+  <testcase name="testLogoutButton" classname="pages.Customer_Dashboard" time="0.092"/>
+  <testcase name="testNavigationTransactions" classname="pages.Customer_Dashboard" time="0.599"/>
+  <testcase name="testSelectingAccountNumber" classname="pages.Customer_Dashboard" time="0.391"/>
+  <testcase name="testUserGreeting" classname="pages.Customer_Dashboard" time="0.065"/>
+  <testcase name="testLoginForm" classname="pages.Customer_Login" time="0.294"/>
+  <testcase name="testNavigationHome" classname="pages.Customer_Login" time="0.109"/>
+  <testcase name="testDatePicker" classname="pages.Customer_Transactions" time="16.492">
+    <system-out><![CDATA[date picker value: 2015-01-01T00:00:00.000
+date: 2015-01-01T00:00:00.000... is datePicker: true
+date: 2015-07-28T00:00:00.000... is datePicker: true
+date: Jan 1, 2015 12:00:00 AM... is datePicker: false
+date: Jul 28, 2015 12:00:00 AM... is datePicker: false
+]]></system-out>
+  </testcase>
+  <testcase name="testHomeButton" classname="pages.Customer_Transactions" time="0.102"/>
+  <testcase name="testLogoutButton" classname="pages.Customer_Transactions" time="0.09"/>
+  <testcase name="testResetButton_andCorrectRecentData" classname="pages.Customer_Transactions" time="3.681">
+    <system-out><![CDATA[
+Assert-1
+from table: 1000 | our input: 1000
+from table: 100 | our input: 100
+from table: 800 | our input: 800
+from table: 101 | our input: 101
+from table: 500 | our input: 500
+from table: 102 | our input: 102
+]]></system-out>
+  </testcase>
+  <testcase name="testTableSorting" classname="pages.Customer_Transactions" time="5.237">
+    <system-out><![CDATA[
+Assert-1
+from table: 1000 | our input: 1000
+from table: 100 | our input: 100
+from table: 800 | our input: 800
+from table: 101 | our input: 101
+from table: 500 | our input: 500
+from table: 102 | our input: 102
+
+Assert-2
+actual: 102 | expected: 102
+actual: 500 | expected: 500
+actual: 101 | expected: 101
+actual: 800 | expected: 800
+actual: 100 | expected: 100
+actual: 1000 | expected: 1000
+]]></system-out>
+  </testcase>
+  <testcase name="testDeleteCustomer" classname="pages.Manager_CustomerTable" time="0.424"/>
+  <testcase name="testNavigationAddCustomer" classname="pages.Manager_CustomerTable" time="0.092"/>
+  <testcase name="testNavigationHomeButton" classname="pages.Manager_CustomerTable" time="0.107"/>
+  <testcase name="testNavigationOpenAccount" classname="pages.Manager_CustomerTable" time="0.089"/>
+  <testcase name="testSearchBar" classname="pages.Manager_CustomerTable" time="0.256"/>
+  <testcase name="testTableShowsNewAccounts" classname="pages.Manager_CustomerTable" time="0.676">
+    <system-out><![CDATA[ASSERT table shows new accounts
+Accounts Before:
+First Name
+Hermoine
+Harry
+Ron
+Neville
+fname1
+]]></system-out>
+  </testcase>
+  <testcase name="testTableSort" classname="pages.Manager_CustomerTable" time="1.304">
+    <system-out><![CDATA[***
+COMPARE MATRICES
+actual: First Name
+expected: First Name
+
+actual: fname1
+expected: fname1
+
+actual: Harry
+expected: Harry
+
+actual: Hermoine
+expected: Hermoine
+
+actual: Neville
+expected: Neville
+
+actual: Ron
+expected: Ron
+
+***
+COMPARE MATRICES
+actual: Last Name
+expected: Last Name
+
+actual: Granger
+expected: Granger
+
+actual: lname1
+expected: lname1
+
+actual: Longbottom
+expected: Longbottom
+
+actual: Potter
+expected: Potter
+
+actual: Weasly
+expected: Weasly
+
+***
+COMPARE MATRICES
+actual: Post Code
+expected: Post Code
+
+actual: E55555
+expected: E55555
+
+actual: E725JB
+expected: E725JB
+
+actual: E859AB
+expected: E859AB
+
+actual: E89898
+expected: E89898
+
+actual: pcode0
+expected: pcode0
+
+]]></system-out>
+  </testcase>
+  <testcase name="testAddCusterButton" classname="pages.Manager_Dashboard" time="0.096"/>
+  <testcase name="testCustomerTable" classname="pages.Manager_Dashboard" time="0.091"/>
+  <testcase name="testHomeButton" classname="pages.Manager_Dashboard" time="0.115"/>
+  <testcase name="testOpenAccountButton" classname="pages.Manager_Dashboard" time="0.091"/>
+</testsuite>
