@@ -1,0 +1,5 @@
+@BeforeTest: info
+@BeforeTest: warn
+@BeforeTest: error
+@BeforeTest: debug
+@BeforeTest: fatal
