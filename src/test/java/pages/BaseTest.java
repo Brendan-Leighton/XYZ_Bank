@@ -45,7 +45,7 @@ public class BaseTest {
 
     public static Excel_Sheet getExcel() throws IOException {
         if (excel == null) {
-            excel = Excel_Sheet.getExcelSheet(0, "C:\\Users\\br3nd\\IdeaProjects\\Selenium\\src\\test\\java\\resources\\Way2Auto_input.xlsx");
+            excel = Excel_Sheet.getExcelSheet(0, "C:\\Users\\br3nd\\IdeaProjects\\GenSpark\\XYZ_Bank\\src\\test\\java\\resources\\Way2Auto_input.xlsx");
         }
         return excel;
     }
