@@ -103,6 +103,9 @@ public class Manager_CustomerTable extends BaseTest {
     public void testDeleteCustomer() {
         By Albus = By.xpath("//td[contains(text(), \"Albus\")]/following-sibling::td//button");
 
+        Waits.forElement_andClick(MANAGER_CUSTOMER_TABLE.getInputSearchBar());
+        MANAGER_CUSTOMER_TABLE.getInputSearchBar().sendKeys("Albus");
+
         // wait for and get <table>
         Waits.forElement(MANAGER_CUSTOMER_TABLE.getTable_userAccounts());
         List<List<WebElement>> userAccounts_BEFORE = MANAGER_CUSTOMER_TABLE.getTable(MANAGER_CUSTOMER_TABLE.getTable_userAccounts());
