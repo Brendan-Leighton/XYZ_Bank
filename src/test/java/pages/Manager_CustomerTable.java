@@ -108,7 +108,7 @@ public class Manager_CustomerTable extends BaseTest {
         List<List<WebElement>> userAccounts_BEFORE = MANAGER_CUSTOMER_TABLE.getTable(MANAGER_CUSTOMER_TABLE.getTable_userAccounts());
 
         // Dumbledore died so we closed his accounts
-        Drivers.getDriver().findElement(Albus).click();
+        Waits.forElement_andClick(Drivers.getDriver().findElement(Albus));
 
         // assert just 1 row was deleted
         Waits.forElement(MANAGER_CUSTOMER_TABLE.getTable_userAccounts());
