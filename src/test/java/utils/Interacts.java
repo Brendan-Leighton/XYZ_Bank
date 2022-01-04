@@ -20,7 +20,7 @@ public class Interacts {
         actions = new Actions(Drivers.getDriver());
     }
 
-    public static Interacts getActions() {
+    public static Interacts initInteracts() {
         if (INTERACTS == null) INTERACTS = new Interacts();
         return INTERACTS;
     }
@@ -46,6 +46,8 @@ public class Interacts {
      * @param clickableElement a clickable WebElement
      */
     public static void click(WebElement clickableElement) {
+        initInteracts();
+
         boolean isClicked = false;
 
         Waits.forElement(clickableElement);
