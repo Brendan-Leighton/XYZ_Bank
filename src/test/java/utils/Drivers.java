@@ -14,15 +14,15 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class Drivers {
     private static Drivers DRIVERS;
     private static WebDriver driver;
-    private static WebDriver chrome;
 
     private Drivers() {
-                String browser = Props.getProp("browser");
-//        String browser = "chrome";
+        String browser = Props.getProp("browser");
         try {
             if (driver == null) {
                 if (browser.contains("chrome")) driver = Chrome();
                 if (browser.contains("firefox")) driver = Firefox();
+                assert driver != null;
+                driver.manage().window().maximize();
             }
         } catch (Exception e) {
             e.printStackTrace();
@@ -39,18 +39,18 @@ public class Drivers {
             TO SELECT BROWSER VERSION
             WebDriverManager.chromedriver().browserVersion("95").setup();
          */
+
         // SETUP WEB DRIVER
         WebDriverManager.chromedriver().setup();
 
         // CHROME DRIVER SETTINGS
         Map<String, Object> prefs = new HashMap<>();
-        prefs.put("download.default_directory",
-                System.getProperty(
-                        "user.dir" + File.separator +
-                        "externalFiles" + File.separator +
-                        "downloads"));
-        ChromeOptions options = new ChromeOptions().setHeadless(true);
-        options.setExperimentalOption("prefs", prefs);
+        prefs.put("download.default_directory", System.getProperty("user.dir"+ File.separator +"externalFiles"+ File.separator +"downloads"));
+
+        ChromeOptions options = new ChromeOptions()
+                .setHeadless(true)
+                .setExperimentalOption("prefs", prefs);
+
         return new ChromeDriver(options);
     }
 
