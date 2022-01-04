@@ -2,7 +2,10 @@
 *.class
 
 # Log file
+/logs
 *.log
+# Screenshots of failed tests
+/failedScreenshots
 
 # BlueJ files
 *.ctxt
