@@ -248,7 +248,7 @@ public abstract class Factory__Index {
      * @param currentUrl the current webpage's URL
      */
     public void getTablesLastPage(WebElement nextPageButton, String currentUrl) {
-            nextPageButton.click();
+            Waits.forElement_andClick(nextPageButton);
             Waits.forElement(nextPageButton);
             if (Drivers.getDriver().getCurrentUrl().equals(currentUrl)) return;
             getTablesLastPage(nextPageButton, (Drivers.getDriver().getCurrentUrl()));
