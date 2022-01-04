@@ -22,14 +22,51 @@ public class Waits {
         return WAITS;
     }
 
+    /**
+     * <h1>forElement()</h1>
+     *
+     * <h2>Order of Operations</h2>
+     * <ol>
+     *     <li>Initialize Waits class if not done so</li>
+     *     <li>WebDriverWait for WebElement param to be clickable</li>
+     * </ol>
+     * @param element WebElement to wait for
+     */
     public static void forElement(WebElement element) {
         getWaits();
         forElement.until(ExpectedConditions.elementToBeClickable(element));
     }
 
-    public static void forElement_andClick(WebElement el) {
-        forElement(el);
-        el.click();
+    /**
+     * <h1>forElement(clickableElement)</h1>
+     *
+     * <h2>Description</h2>
+     * <p>
+     *     Wait for a WebElement to be clickable then click it.
+     * </p>
+     *
+     * <hr><br>
+     *
+     * <h2>Order of Operations</h2>
+     * <ol>
+     *     <li>Initialize Waits class if not done so</li>
+     *     <li>WebDriverWait for WebElement param to be clickable</li>
+     *     <li>Interacts.click(param: clickableElement)
+     *          <ol>
+     *              <li>Try WebElement.click()</li>
+     *              <li>Try Actions.click()</li>
+     *              <li>Try JavascriptExecutor.click()</li>
+     *          </ol></li>
+ *          <li>THE END</li>
+     * </ol>
+     *
+     * <hr>
+     *
+     * @param clickableElement a clickable WebElement to wait for
+     */
+    public static void forElement_andClick(WebElement clickableElement) {
+        forElement(clickableElement);
+        Interacts.click(clickableElement);
     }
 
     public static void forUrl(String url) {
