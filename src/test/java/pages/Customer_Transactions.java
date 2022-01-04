@@ -22,35 +22,11 @@ public class Customer_Transactions extends BaseTest {
     Factory_Customer_Login CUSTOMER_LOGIN;
     Factory_Customer_Dashboard CUSTOMER_DASHBOARD;
     Factory_Customer_Transaction CUSTOMER_TRANSACTIONS;
-//    Map<String, Map<String, String>> data_addCustomer;
-//    String[] inputDate_end;
-//    String inputDate_String;
-//    Map<String, Map<String, String>> data_customerDashboard;
-//    String customerFirstName;
-//    String customerLastName;
-//    String amount_toDeposit_string;
-//    String amount_toWithdraw_string;
-//    Integer amount_toDeposit_int;
-//    Integer amount_toWithdraw_int;
 
     public Customer_Transactions() throws IOException {
         CUSTOMER_LOGIN = _Factories.Customer_Login();
         CUSTOMER_DASHBOARD = _Factories.Customer_Dashboard();
         CUSTOMER_TRANSACTIONS = _Factories.Customer_Transactions();
-        // DATA - manager_addCustomer
-//        data_addCustomer = pages.BaseTest.getExcel().getPageData(5);
-//        inputDate_String = data_addCustomer.get("Customer-Transactions").get("INPUT-2");
-//        inputDate_String = "2015-01-03T00:00:00.000";
-//        inputDate_end = inputDate_String.split("T")[0].split("/");
-//        customerFirstName = data_addCustomer.get("Manager-AddCustomer").get("INPUT-1").trim();
-//        customerLastName = data_addCustomer.get("Manager-AddCustomer").get("INPUT-2").trim();
-//        // DATA - customer_dashboard
-//        //        deposit amount
-//        data_customerDashboard = pages.BaseTest.getExcel().getPageData(3);
-//        amount_toDeposit_string = data_customerDashboard.get("Customer-Deposit").get("INPUT-1");
-//        //        withdraw amount
-//        data_customerDashboard = pages.BaseTest.getExcel().getPageData(2);
-//        amount_toWithdraw_string = data_customerDashboard.get("Customer-Withdraw").get("INPUT-1");
     }
 
     @BeforeMethod
@@ -156,6 +132,9 @@ public class Customer_Transactions extends BaseTest {
         // input date data
         Waits.forElement_andClick(CUSTOMER_TRANSACTIONS.getInputDateEnd());
 
+        // clear stupid red popup - maybe fix later but don't worry about this test failing
+//        WebElement stupidRedPopup = Drivers.getDriver().findElement(By.xpath("//div[@class=\"meshim_widget_widgets\"]"));
+
         // get to last page in table
         CUSTOMER_TRANSACTIONS.getTablesLastPage(CUSTOMER_TRANSACTIONS.getTableButtonNextPage(), Drivers.getDriver().getCurrentUrl());
         transactionTable = CUSTOMER_TRANSACTIONS.getTable(CUSTOMER_TRANSACTIONS.getTableTransactions());
@@ -164,54 +143,4 @@ public class Customer_Transactions extends BaseTest {
         Assert.assertEquals(input_startDate, table_earliestDate);
         Assert.assertEquals(input_endDate, table_latestDate);
     }
-//
-//        // ELEMENT 3: verify recent transaction data
-//        // SETUP - reset transactions table
-//        customerTransactionFactory.navigateTo(driver, 1, pages.BaseTest.factories.getCustomer_Login());
-//        customerTransactionFactory.getButtonReset().click();
-//        // SETUP - make deposits / withdrawals
-//        int[] setupTransactions = new int[] {1_000,100,800,101,500,102};
-//            // 1000 (   0 + 1000)  setupTransactions will alternate
-//            // 900  (1000 - 100)   between Deposit and Withdraw.
-//            // 1700 ( 900 + 800)   Starts with a balance of zero 0 and
-//            // 1599 (1700 - 101)   makes an initial Deposit of 1000
-//            // 2100 (1600 + 500)
-//            // 1997 (2100 - 102)
-//        for (int i = 0; i < setupTransactions.length; i+=2) {
-//            customerAccountFactory.depositMoney(driver, setupTransactions[i]);
-//            if (setupTransactions.length != i+1) {
-//                customerAccountFactory.withdrawMoney(driver, setupTransactions[i + 1]);
-//            }
-//        }
-//        // NAVIGATE
-//        customerTransactionFactory.navigateTo(driver, 1, pages.BaseTest.factories.getCustomer_Login());
-//        // INTERACT
-//        transactionTable = customerTransactionFactory.getTable(customerTransactionFactory.getTableTransactions());
-//        // ASSERT
-//        System.out.println("\nAssert2");
-//        for (int i = 1; i < transactionTable.size(); i++) {
-////            Assert.assertEquals(Integer.parseInt(transactionTable.get(i).get(1).getText().trim()), setupTransactions[i-1]);
-//            int tableAmount = Integer.parseInt(transactionTable.get(i).get(1).getText().trim());
-//            int setupAmount = setupTransactions[i-1];
-//            System.out.println("table: " + tableAmount + "\nreversed: " + setupAmount);
-//            Assert.assertEquals(tableAmount, setupAmount);
-//        }
-//
-//        // ELEMENT 4: verify proper sorting
-//        // SETUP NAVIGATION - can skip and continue from previus code
-//        // INTERACT
-//       customerTransactionFactory.getTableSortDates().click(); // click Date-Time table-header
-//        int[] reversedAmounts = new int[setupTransactions.length];
-//        for (int i = setupTransactions.length - 1; i >= 0; i--) {
-//            reversedAmounts[reversedAmounts.length - (i + 1)] = setupTransactions[i];
-//        }
-//        transactionTable = customerTransactionFactory.getTable(customerTransactionFactory.getTableTransactions());
-//        // ASSERT
-//        System.out.println("\nAssert2");
-//        for (int i = 1; i < transactionTable.size(); i++) {
-//            int tableSort = Integer.parseInt(transactionTable.get(i).get(1).getText().trim());
-//            int reversedSort = reversedAmounts[i-1];
-//            System.out.println("table: " + tableSort + "\nreversed: " + reversedSort);
-//            Assert.assertEquals(tableSort, reversedSort);
-//        }
 }
